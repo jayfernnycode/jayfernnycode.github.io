@@ -1,0 +1,43 @@
+/* frontweb.css */
+
+/* Add styles for the banner image */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Set a fixed height for the banner */
+}
+
+.banner img {
+    width: 100%; /* Ensure the image doesn't exceed its container */
+    height: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+/* Add styles for the profiles */
+.profiles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.profile {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.profile img {
+    width: 100px; /* Adjust the width of the profile images */
+    height: 100px; /* Adjust the height of the profile images */
+    justify-content: center;
+}
+
+/* Center the application */
+#profileApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
